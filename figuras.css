@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Recursive', sans-serif;
+  /* outline: 1px solid crimson; */
+}
+
+header {
+  margin: 15px;
+}
+.figuras__container {
+  display: flex;
+  flex-direction: column;
+}
+.figuras__section, form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
